@@ -32,7 +32,6 @@ function TemperatureConverter() {
     return (
         <div className='block'>
             <TextField
-                // type='number'
                 label="Темп. по Цельсию"
                 variant="filled"
                 onChange={catchCelsiusInput}
@@ -40,7 +39,6 @@ function TemperatureConverter() {
                 value={dergeeCelsius}
             />
             <TextField
-                // type='number'
                 label="Темп. по Фаренгейту"
                 variant="filled"
                 onChange={catchFahrenheitInput}
